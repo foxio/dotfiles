@@ -25,7 +25,6 @@
         ]
     },
     "editor.minimap.enabled": false,
-    "terminal.external.osxExec": "iTerm.app",
     "editor.minimap.renderCharacters": false,
     "workbench.sideBar.location": "left",
     "workbench.iconTheme": "vscode-icons",

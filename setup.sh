@@ -19,7 +19,7 @@ echo "SSH key copied."
 
 # copy vs-code settings
 mkdir -p "$HOME/Library/Application Support/Code/User"
-cp "$HOME/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+mv "$HOME/vsc_settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 
 xcode-select --install
 

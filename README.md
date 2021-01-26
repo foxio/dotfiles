@@ -1,24 +1,24 @@
 # dotfiles
 
 > "I LOVE THIS STUFF, PEOPLES!"  
->           *-- myself (age 5)*
+>           *-- Blake (age 5)*
 
 **THIS IS SUPER INVASIVE**
 PLEASE DON'T RUN THIS UNLESS YOU KNOW WHAT IT DOES
 
 ## Installation
 ```
-cd; curl -#L http://dotfiles.grotewold.me | tar -xzv --strip-components 1 --exclude={README.md,LICENSE.md}; sh $HOME/bootstrap
+cd; curl -#L http://dotfiles.fox.io | tar -xzv --strip-components 1 --exclude={README.md,LICENSE.md,.gitignore}; sh $HOME/setup.sh
 ```
 
 ## Clean Up
 
-Once the above command is run, you can safely delete `bootstrap`, `config`, `install`, `manual_install`.
+Once the above command is run, you can safely delete `setup.sh`.
 
 ```
-rm -f $HOME/bootstrap $HOME/config $HOME/install $HOME/manual_install
-```
+rm $HOME/setup.sh
 
+```
 
 ## Attributions
 [Mathias Bynens](https://mths.be/dotfiles)  

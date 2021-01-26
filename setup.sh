@@ -32,7 +32,7 @@ brew install nvm
 brew install yarn
 
 brew install --cask alfred
-brew install --cask cyberduck
+brew install --cask forklift
 brew install --cask docker
 brew install --cask dropbox
 brew install --cask firefox

@@ -36,6 +36,7 @@ brew install --cask cyberduck
 brew install --cask docker
 brew install --cask dropbox
 brew install --cask firefox
+brew install --cask font-fira-code
 brew install --cask google-chrome
 brew install --cask harvest
 brew install --cask local
@@ -46,7 +47,9 @@ brew install --cask slack
 brew install --cask sourcetree
 brew install --cask spectacle
 brew install --cask spotify
+brew install --cask virtualbox
 brew install --cask visual-studio-code
+brew install --cask zoom
 
 modules="
 peterjausovec.vscode-docker

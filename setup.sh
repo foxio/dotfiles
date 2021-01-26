@@ -31,21 +31,22 @@ brew install git-lfs
 brew install nvm
 brew install yarn
 
-brew cask install alfred
-brew cask install cyberduck
-brew cask install docker
-brew cask install dropbox
-brew cask install firefox
-brew cask install google-chrome
-brew cask install harvest
-brew cask install local
-brew cask install mysqlworkbench
-brew cask install ngrok
-brew cask install psequel
-brew cask install slack
-brew cask install spectacle
-brew cask install spotify
-brew cask install visual-studio-code
+brew install --cask alfred
+brew install --cask cyberduck
+brew install --cask docker
+brew install --cask dropbox
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask harvest
+brew install --cask local
+brew install --cask mysqlworkbench
+brew install --cask ngrok
+brew install --cask psequel
+brew install --cask slack
+brew install --cask sourcetree
+brew install --cask spectacle
+brew install --cask spotify
+brew install --cask visual-studio-code
 
 modules="
 peterjausovec.vscode-docker

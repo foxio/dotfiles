@@ -17,7 +17,6 @@ Once the above command is run, you can safely delete `setup.sh`.
 
 ```
 rm $HOME/setup.sh
-
 ```
 
 ## Attributions

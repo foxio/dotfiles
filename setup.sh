@@ -38,7 +38,6 @@ brew install --cask dropbox
 brew install --cask firefox
 brew install --cask font-fira-code
 brew install --cask google-chrome
-brew install --cask harvest
 brew install --cask local
 brew install --cask mysqlworkbench
 brew install --cask ngrok

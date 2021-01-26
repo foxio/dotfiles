@@ -19,6 +19,8 @@ echo "\nexport NVM_DIR=~/.nvm" >> $HOME/.zshrc
 echo "source $(brew --prefix nvm)/nvm.sh" >> $HOME/.zshrc
 ```
 
+You'll probably still need to install `Creative Cloud` from Adobe. `XCode` and `Harvest` can be downloaded from the Mac App Store
+
 ## Clean Up
 
 Once the above command is run, you can safely delete `setup.sh`.

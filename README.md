@@ -5,10 +5,10 @@
 
 ## Installation
 
-Download setup.sh file and run the following command in terminal
+Download dotfiles repo as a zip and unzip the file in your Downloads directory. run the following command in terminal
 
 ```
-sh setup.sh
+sh $HOME/Downloads/dotfiles-main/setup.sh
 ```
 
 ## Configuration
@@ -36,7 +36,7 @@ git config --global user.email "YOUR_EMAIL_HERE"
 Download .aliases file and run the following command to move it to your User directory.
 
 ```
-mv ~/Downloads/.aliases ~/.aliases
+mv $HOME/Downloads/dotfiles-main/.aliases $HOME/.aliases
 echo "\nsource $HOME/.aliases" >> $HOME/.zshrc
 ```
 

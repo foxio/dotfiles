@@ -3,31 +3,56 @@
 > "I LOVE THIS STUFF, PEOPLES!"  
 >           *-- Blake (age 5)*
 
-**THIS IS SUPER INVASIVE**
-PLEASE DON'T RUN THIS UNLESS YOU KNOW WHAT IT DOES
-
 ## Installation
-```
-cd; curl -#L https://github.com/foxio/dotfiles/archive/main.tar.gz | tar -xzv --strip-components 1 --exclude={README.md,LICENSE.md,.gitignore}; sh $HOME/setup.sh
-```
 
-Once this is done, add the `.aliases` file and nvm setup to your .zshrc file
+Download setup.sh file and run the following command in terminal
 
 ```
+sh setup.sh
+```
+
+## Configuration
+
+### SSH Keys and Setting up GIT
+
+Run the following commands to create an ssh key and add that key to your clipboard for pasting into github.
+*Don't forget to change your email*
+
+```
+ssh-keygen -t rsa -b 4096 -C "YOUR_EMAIL_HERE"
+eval "$(ssh-agent -s)"
+ssh-add $HOME/.ssh/id_rsa
+pbcopy < $HOME/.ssh/id_rsa.pub
+```
+
+Run the following commmands to set your git configurations in terminal.
+*Don't forget to change your email*
+
+git config --global user.name "YOUR_EMAIL_HERE"
+git config --global user.email "YOUR_EMAIL_HERE"
+
+### Setting up aliases 
+
+Download .aliases file and run the following command to move it to your User directory.
+
+```
+mv ~/Downloads/.aliases ~/.aliases
 echo "\nsource $HOME/.aliases" >> $HOME/.zshrc
+```
+
+### Setting up nvm
+
+Run the following commands to add NVM to your commandline configuration
+
+```
 echo "\nexport NVM_DIR=~/.nvm" >> $HOME/.zshrc
 echo "source $(brew --prefix nvm)/nvm.sh" >> $HOME/.zshrc
 ```
 
-You'll probably still need to install `Creative Cloud` from Adobe. `XCode` and `Harvest` can be downloaded from the Mac App Store
 
 ## Clean Up
 
-Once the above command is run, you can safely delete `setup.sh`.
-
-```
-rm $HOME/setup.sh
-```
+You'll probably still need to install `Creative Cloud` from Adobe. `XCode` and `Harvest` can be downloaded from the Mac App Store
 
 ## Attributions
 [Mathias Bynens](https://mths.be/dotfiles)  

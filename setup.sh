@@ -18,9 +18,9 @@ brew install --cask google-chrome
 brew install --cask local
 brew install --cask ngrok
 brew install --cask postico
+brew install --cask rectangle
 brew install --cask slack
 brew install --cask sourcetree
-brew install --cask spectacle
 brew install --cask spotify
 brew install --cask visual-studio-code
 brew install --cask zoom

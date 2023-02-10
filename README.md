@@ -15,7 +15,7 @@ sh $HOME/Downloads/dotfiles-main/setup.sh
 
 ### SSH Keys and Setting up GIT
 
-Run the following commands to create an ssh key and add that key to your clipboard for pasting into github.
+Run the following commands to create an ssh key and add that key to your clipboard for pasting into github. NO PASSWORD ON SSH KEY!
 *Don't forget to change your email*
 
 ```
@@ -46,7 +46,7 @@ Run the following commands to add NVM to your commandline configuration
 
 ```
 echo "\nexport NVM_DIR=~/.nvm" >> $HOME/.zshrc
-echo "source $(brew --prefix nvm)/nvm.sh" >> $HOME/.zshrc
+echo "\nsource $(brew --prefix nvm)/nvm.sh" >> $HOME/.zshrc
 ```
 
 
